@@ -3,11 +3,11 @@
 #include<string>
 #include<iostream>
 using namespace std;
-class bank{
+class account{
     currency balance;
 
     public:
-        bank()
+        account()
         {
             balance.dollars=0;
             balance.cents=0;
@@ -19,7 +19,7 @@ class bank{
 };
 
 
- bool bank::depositMoney(string input)
+ bool account::depositMoney(string input)
 {
 
     currency amount = extractDollarsAndCents(input);
@@ -33,7 +33,7 @@ class bank{
     return true;
 }
 
-void bank::withdrawMoney(string input)
+void account::withdrawMoney(string input)
 {
     currency amount = extractDollarsAndCents(input);
     balance.dollars -= (amount.dollars) ;
@@ -47,7 +47,7 @@ void bank::withdrawMoney(string input)
     convertCentsToDollars(balance);
 
 }
-string bank::accountBalance()
+string account::accountBalance()
 {
 
     string bal;
@@ -68,3 +68,5 @@ string bank::accountBalance()
 
     return bal;
 }
+
+

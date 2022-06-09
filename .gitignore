@@ -1,0 +1,4 @@
+index.o
+src\account.o
+src\currency.o
+controller\transaction.o

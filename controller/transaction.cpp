@@ -1,6 +1,6 @@
-#include "../src/bank.cpp"
+#include "../src/account.cpp"
 #include<iostream>
-void controller(bank user)
+void controller(account user)
 {
     bool loopBreak=false;
     do{

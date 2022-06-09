@@ -2,8 +2,7 @@
 
 int main()
 {
-    bank user;
+    account user;
     controller(user);
     return 0;
 }
-

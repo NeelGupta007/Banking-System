@@ -33,7 +33,7 @@ currency extractDollarsAndCents(string input)
         }
         else{
             // error
-
+            break;
         }
 
     }
