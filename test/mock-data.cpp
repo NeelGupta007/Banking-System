@@ -1,0 +1,38 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+string POSITIVE_AMOUNT = "5D 60C";
+
+string NEGATIVE_AMOUNT = "-40D -4C";
+
+string POSITIVE_DOLLARS = "20D";
+
+string NEGATIVE_DOLLARS = "-56D";
+
+string POSITIVE_CENTS = "67C";
+
+string NEGATIVE_CENTS = "-56C";
+
+string DEPOSIT_POSITIVE_AMOUNT = "5D 60C";
+
+string DEPOSIT_NEGATIVE_AMOUNT = "-40D -4C";
+
+string DEPOSIT_POSITIVE_DOLLARS = "20D";
+
+string DEPOSIT_NEGATIVE_DOLLARS = "-56D";
+
+string DEPOSIT_POSITIVE_CENTS = "67C";
+
+string DEPOSIT_NEGATIVE_CENTS = "-56C";
+
+string WITHDRAW_POSITIVE_AMOUNT = "-5D -60C";
+
+string WITHDRAW_NEGATIVE_AMOUNT = "40D 4C";
+
+string WITHDRAW_POSITIVE_DOLLARS = "-20D";
+
+string WITHDRAW_NEGATIVE_DOLLARS = "56D";
+
+string WITHDRAW_POSITIVE_CENTS = "-67C";
+
+string WITHDRAW_NEGATIVE_CENTS = "56C";

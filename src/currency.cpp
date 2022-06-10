@@ -1,10 +1,12 @@
 class currency{
-    public:
+
+public:
     int dollars;
     int cents;
+
     currency()
     {
-        dollars=0;
-        cents=0;
+        dollars = 0;
+        cents = 0;
     }
 };

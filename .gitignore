@@ -1,4 +1,5 @@
 index.o
-src\account.o
+src\bank.o
 src\currency.o
 controller\transaction.o
+test\test.o
